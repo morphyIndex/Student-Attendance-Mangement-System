@@ -1,0 +1,57 @@
+/* For Tablet viewports */
+@media screen and (max-width: 992px) {
+    #home img {
+        width: 300px;
+        height: auto;
+    }
+
+    #footer .social-links {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-nav {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    #home .row {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #home .home-left {
+        text-align: left;
+    }
+
+    #home .home-right {
+        text-align: center;
+    }
+
+    #home img {
+        width: 340px;
+    }
+
+    #priorities .row {
+        justify-content: center;
+    }
+
+    #priorities .card {
+        width: 100%;
+        height: auto;
+    }
+
+    #footer {
+        height: auto;
+    }
+
+    #footer h1, #footer li {
+        text-align: left;
+    }
+
+    #footer .social-links {
+        justify-content: start;
+    }
+}
